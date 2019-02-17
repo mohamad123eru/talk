@@ -44,3 +44,9 @@ ${attentions[message.guild.id]['msg']}**`).then(msge => {
       
     }
     });
+
+//client.login(token);
+
+
+
+client.login(process.env.BOT_TOKEN);
